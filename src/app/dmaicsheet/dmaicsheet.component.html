@@ -1,0 +1,92 @@
+<!----
+<div class="jumbotron">
+     <mat-tab-group class="example" >
+        <mat-tab>
+                <ng-template  mat-tab-label>
+                    <mat-icon color="primary" class="example-tab-icon">touch_app</mat-icon>
+                    <b>Define</b>
+                </ng-template>
+                <div>
+                        <app-define [dmaic]="dmaic"></app-define>
+                      </div>
+            </mat-tab>
+       <mat-tab>
+           <ng-template  mat-tab-label>
+               <mat-icon color="primary" class="example-tab-icon">touch_app</mat-icon>
+               <b>Measure</b>
+               </ng-template>
+           <div>
+                   <app-measure [dmaic]="dmaic"></app-measure>
+                 </div>
+       </mat-tab>
+       <mat-tab>
+           <ng-template mat-tab-label>
+                   <mat-icon color="primary" class="example-tab-icon">touch_app</mat-icon>
+               <b>Analyse</b>
+           </ng-template>
+           <div>
+                   <app-analyse [dmaic]="dmaic"></app-analyse>
+                 </div>
+       </mat-tab>
+       <mat-tab>
+           <ng-template mat-tab-label>
+                   <mat-icon  color="primary" class="example-tab-icon">touch_app</mat-icon>
+              <b> Implementation</b>
+           </ng-template>
+           <div>
+                   <app-implement [dmaic]="dmaic"></app-implement>
+                 </div>
+       </mat-tab>
+       <mat-tab>
+           <ng-template mat-tab-label>
+                   <mat-icon  color="primary"class="example-tab-icon">touch_app</mat-icon>
+              <b> Control</b>
+           </ng-template>
+           <div>
+                   <app-control [dmaic]="dmaic"></app-control>
+                 </div>
+       </mat-tab>
+       </mat-tab-group><br>
+       <div>
+        <button class="btn btn-primary" routerLink="/dmaic"(click)="save()">Save</button>
+    </div>
+      </div>
+    
+    ---->
+
+    <div class="card">
+      <div class="well" style="background-color: grey">Define</div>
+          <div>
+              <app-define [dmaic]="dmaic"></app-define>
+            </div>
+          </div><br>
+      <div class="card">
+          <div class="well" style="background-color: grey">Measure</div>
+          <div>
+              <app-measure [dmaic]="dmaic"></app-measure>
+            </div>
+      </div><br>
+      <div class="card">
+          <div class="well" style="background-color: grey">Analyse</div>
+          <div>
+              <app-analyse [dmaic]="dmaic"></app-analyse>
+            </div>
+      </div><br>
+      <div class="card">
+          <div class="well" style="background-color: grey">Implement</div>
+          <div>
+              <app-implement [dmaic]="dmaic"></app-implement>
+            </div>
+      </div><br>
+      <div class="card">
+          <div class="well" style="background-color: grey">Control</div>
+          <div>
+              <app-control [dmaic]="dmaic"></app-control>
+            </div>
+      </div><br>
+      <div>
+          <button class="btn btn-primary" routerLink="/dmaic"(click)="save()">Save</button>
+      </div>
+    
+    
+    
